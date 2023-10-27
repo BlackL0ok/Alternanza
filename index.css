@@ -24,6 +24,7 @@ body {
     overflow: hidden;
 }
 
+
 .text_custom {
     color: rgb(0, 0, 0);
     position: absolute;
@@ -36,20 +37,13 @@ body {
     border-radius: 5px;
 }
 
+
+
 .left-panel_custom:hover {
     background-color: rgba(0, 0, 0, 0.38);
 }
 .right-panel_custom:hover {
     background-color: rgba(0, 0, 0, 0.38);
-}
-.border_custom {
-    width: 3px; /* Largeur de la bordure au milieu */
-    background-color: #000; /* Couleur de la bordure */
-    position: absolute;
-    top: 20%;
-    bottom: 5%;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 
@@ -75,12 +69,9 @@ body {
     text-align: center;
 }
 .bouton-espace {
-    margin-left: 10px; /* Espace entre les boutons */
     align-items: center;
     background-color: #b2b6f4;
     border-radius: 20px;
-    width: 150px;
-    margin-top: 2px;
 
 }
 .no-wrap {
@@ -92,6 +83,9 @@ body {
 .btn-custom:hover{
     background-color: #989eee; /* Changez la couleur en fonction de votre préférence */
     border-color: #3e43a4; /* Changez la couleur du texte en fonction de votre préférence */
-    border-radius: 2px;
-    border-radius: 20px;
+}
+.btn-block{
+    display: block;
+    height: 100%;
+    width: 100%;
 }
